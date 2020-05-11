@@ -28,8 +28,7 @@ int main()
             sz++;
         }
     }
-    for(int i = sz-1; i>= 0; i--)
-        cout << val[i];
+    for(int i = sz-1; i>= 0;  cout << val[i], i--);
     cout << endl;
     return 0;
 }
